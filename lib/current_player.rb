@@ -7,7 +7,6 @@ if turn_count(board) == true
   end
 end
 end
-end
 
 
 def current_player

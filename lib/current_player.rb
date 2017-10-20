@@ -8,7 +8,7 @@ board.each do |board|
     break
   end
 end
-  
+
 
 
 def current_player

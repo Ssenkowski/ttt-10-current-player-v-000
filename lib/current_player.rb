@@ -1,8 +1,6 @@
 def turn_count(board)
 counter = 0
-def position_taken?(board, location)
-  board[location] != " " && board[location] != ""
-if position_taken?(board, location) == true
+if turn_count(board) == true
   counter += 1
   until counter == 9
     break

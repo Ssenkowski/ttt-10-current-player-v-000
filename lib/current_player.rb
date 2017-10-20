@@ -1,6 +1,6 @@
 def turn_count(board)
   spaces = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-counter = 1
+counter = 0
 spaces.each do |space|
   if spaces != " "
   counter += 1

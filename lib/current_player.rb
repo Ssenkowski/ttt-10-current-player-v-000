@@ -1,6 +1,6 @@
 def turn_count(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-counter = 0
+counter = 1
 board.each do
   if board.each!= " "
   counter += 1

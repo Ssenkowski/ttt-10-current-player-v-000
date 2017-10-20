@@ -1,6 +1,6 @@
 def turn_count(board)
 counter = 0
-board.each do |space|
+board.each do
   if spaces != " "
   counter += 1
   until counter == 9

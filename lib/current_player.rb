@@ -4,7 +4,7 @@ board.each do |spaces|
   if spaces != board
   counter += 1
   until counter == 9
-    return = counter
+    return == counter
     break
   end
 end

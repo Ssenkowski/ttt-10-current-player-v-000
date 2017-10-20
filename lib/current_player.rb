@@ -3,8 +3,8 @@ counter = 0
 board.each do |spaces|
   if spaces == "X"
      counter += 1
-     || if spaces == "O"
-       counter += 1
+   else spaces == "O"
+     counter += 1
      end
    end
   return counter

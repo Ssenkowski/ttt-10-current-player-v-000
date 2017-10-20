@@ -5,9 +5,9 @@ def turn_count(board)
      until counter == 3
        counter += 1
      end
-     return counter
     end
   end
+  counter 
 end
 
 

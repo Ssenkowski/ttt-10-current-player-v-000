@@ -1,5 +1,4 @@
 def turn_count(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 counter = 0
 if board != " "
   counter += 1
@@ -12,7 +11,8 @@ end
 
 
 
-def current_player
+def current_player(board)
+  if turn_count(board) = 
 
 
 

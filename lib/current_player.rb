@@ -1,7 +1,7 @@
 def turn_count(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 counter = 0
-board.each do 
+board.each do
   if board.each!= " "
   counter += 1
   until counter == 9

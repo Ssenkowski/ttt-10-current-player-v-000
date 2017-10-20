@@ -1,6 +1,7 @@
 def turn_count(board)
 counter = 0
-if board.each do != " "
+board.each do 
+  if board != " "
   counter += 1
   until counter == 9
     break

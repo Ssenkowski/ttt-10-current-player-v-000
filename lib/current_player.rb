@@ -1,7 +1,7 @@
 def turn_count(board)
 counter = 0
 board.each do |spaces|
-  if spaces != {board}
+  if spaces != board
   counter += 1
   until counter == 9
     break

@@ -8,7 +8,6 @@ board.each do |spaces|
     break
 end
 end
-end
 
 
 

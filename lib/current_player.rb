@@ -1,7 +1,7 @@
 def turn_count(board)
-taken_spaces(board) = ["X", "O"]
+taken_spaces = ["X", "O"]
 counter = 0
-if taken_spaces == true
+if taken_spaces(board) == true
   counter += 1
 end
 

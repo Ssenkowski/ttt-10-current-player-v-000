@@ -5,7 +5,6 @@ board.each do |spaces|
    counter += 1
   return counter
     break
-  end
 end
 end
 end

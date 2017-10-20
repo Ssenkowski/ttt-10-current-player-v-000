@@ -1,14 +1,13 @@
 def turn_count(board)
 counter = 0
 board.each do |spaces|
-  if spaces == "X"
+  if spaces != " "
+   until counter == 3
      counter += 1
-   else spaces == "O"
-     counter += 1
-     end
    end
   return counter
     break
+end
 end
 end
 

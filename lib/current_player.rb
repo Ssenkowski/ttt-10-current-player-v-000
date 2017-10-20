@@ -8,7 +8,7 @@ if position_taken?(board, location) == true
     break
   end
 end
-
+end
 end
 
 
@@ -19,5 +19,5 @@ def current_player
 end
 
 
-  
+
 end
